@@ -1,0 +1,80 @@
+{
+  "version": 1,
+  "updated": "2026-10-11",
+  "base_url": "https://tuusuario.github.io/ads-stock",
+
+  "apps": [
+
+    {
+      "id": "meshalarm",
+      "name": "MeshAlarm",
+      "description": "Alarma láser inteligente con grabación nocturna y control remoto",
+      "download_url": "https://tuapk.com/meshalarm",
+      "website_url": "",
+      "active": true,
+      "ads": [
+        {
+          "id": "meshalarm_banner_01",
+          "type": "banner",
+          "image": "banners/meshalarm_banner.png",
+          "weight": 3,
+          "active": true
+        },
+        {
+          "id": "meshalarm_interstitial_01",
+          "type": "interstitial",
+          "image": "interstitials/meshalarm_full.png",
+          "weight": 2,
+          "active": true
+        }
+      ]
+    },
+
+    {
+      "id": "cotizalo",
+      "name": "Cotizaló",
+      "description": "Comparador de precios y compras en grupo",
+      "download_url": "",
+      "website_url": "https://cotizalobien.com",
+      "active": true,
+      "ads": [
+        {
+          "id": "cotizalo_banner_01",
+          "type": "banner",
+          "image": "banners/cotizalo_banner.png",
+          "weight": 2,
+          "active": true
+        }
+      ]
+    },
+
+    {
+      "id": "mihorario",
+      "name": "Mi Horario",
+      "description": "Organiza tu semana fácilmente",
+      "download_url": "https://tuapk.com/mihorario",
+      "website_url": "",
+      "active": true,
+      "ads": [
+        {
+          "id": "mihorario_banner_01",
+          "type": "banner",
+          "image": "banners/mihorario_banner.png",
+          "weight": 1,
+          "active": true
+        }
+      ]
+    },
+
+    {
+      "id": "app_placeholder_01",
+      "name": "",
+      "description": "",
+      "download_url": "",
+      "website_url": "",
+      "active": false,
+      "ads": []
+    }
+
+  ]
+}
