@@ -1,2 +1,10 @@
 jdk:
   - openjdk17
+env:
+  - GRADLE_VERSION=8.4
+before_install:
+  - sdk install gradle 8.4
+  - sdk use gradle 8.4
+  - export PATH="$HOME/.sdkman/candidates/gradle/current/bin:$PATH"
+install:
+  - gradle :adsmanager:assembleRelease :adsmanager:publishToMavenLocal -Pgroup=com.github.lhamat123 -Pversion=$VERSION
